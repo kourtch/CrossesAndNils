@@ -224,7 +224,7 @@ int main()
 	cout << endl;
 
 	auto dir = std::filesystem::current_path();
-	sw.open((dir.generic_string() + "/CrossesAndNils_mt.txt").c_str());
+	sw.open((dir.generic_string() + "/CrossesAndNils.txt").c_str());
 	bool res = move(board, dir);
 	sw.close();
 	cout << COUNT << endl;       // 549946
